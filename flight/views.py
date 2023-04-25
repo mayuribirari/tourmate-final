@@ -771,7 +771,7 @@ import os
 import openai
 from flask import Flask, render_template, request
 
-openai.api_key = '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'
+openai.api_key = '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'
 
 def home_itinerary(request):
     return render(request, "itinerary/home_iti.html")
